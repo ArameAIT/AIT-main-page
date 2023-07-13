@@ -136,407 +136,362 @@ function Courses() {
                         ) : ""
                     }
                 </div>
-                <div >
-                    <div className='flex flex-wrap justify-center items-center w-full'>
+                <div>
+                    <div className='flex justify-center items-center' >
+                        <div className='grid grid-cols-3 w-full gap-[100px]'>
 
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            {/* <img src={el.url} className='w-[200xp]' />
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                {/* <img src={el.url} className='w-[200xp]' />
                                     <p className='text-[20px]'>{el.name}</p>
                                     <p>{el.time}</p> */}
-                            <img src="https://api.aitschool.am/web_course.png" className='w-[200px]'/>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            Web Programming
-                                        </>
-                                    ) : ""
-                                },
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            Web ծրագրավորում
-                                        </>
-                                    ) : ""
-                                },
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            Web-программирование
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            6 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            6 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            6 месяцев
-                                        </>
-                                    ) : ""
-                                }
+                                <img src="https://api.aitschool.am/web_course.png" className='w-[200px]' />
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                Web Programming
+                                            </>
+                                        ) : ""
+                                    },
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                Web ծրագրավորում
+                                            </>
+                                        ) : ""
+                                    },
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                Web-программирование
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                6 Month
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                6 ամիս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                6 месяцев
+                                            </>
+                                        ) : ""
+                                    }
 
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/ui-ux.png" className='w-[200px]'/>
-                            <p>
-                                UI/UX
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            2 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            2 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            2 месяцев
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/smm.png" />
-                            <p>
-                                SMM
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            2 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            2 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            2 месяцев
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/ui-ux.png" className='w-[200px]'/>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            Graphic Design
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            Գրաֆիկ Դիզայն
-                                        </>
-                                    ) : ""
-                                }{
-                                    lang == "Русский" ? (
-                                        <>
-                                            Графический дизайн
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            2 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            2 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            2 месяцев
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/english.png" className='w-[200px]'/>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            English
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            Անգլերեն
-                                        </>
-                                    ) : ""
-                                }{
-                                    lang == "Русский" ? (
-                                        <>
-                                            Английский
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            4 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            4 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            4 месяцев
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/english.png" className='w-[200px]'/>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            English
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            Անգլերեն
-                                        </>
-                                    ) : ""
-                                }{
-                                    lang == "Русский" ? (
-                                        <>
-                                            Английский
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            4 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            4 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            4 месяцев
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/3d-illustration-computer-keyboard-and-mouse-object-png.png" className='w-[200px]'/>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            Computer literacy
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            Համակարգչային գրագիտություն
-                                        </>
-                                    ) : ""
-                                }{
-                                    lang == "Русский" ? (
-                                        <>
-                                            Компьютерная грамотность
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            2 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            2 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            2 месяцев
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/kids.blog.webp" className='w-[200px]'/>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            AIT Kids
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            AIT Երեխաներ
-                                        </>
-                                    ) : ""
-                                }{
-                                    lang == "Русский" ? (
-                                        <>
-                                            AIT Дети
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            8 Month
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            8 ամիս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            8 месяцев
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                        </div>
-                        <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
-                            <img src="https://api.aitschool.am/free-linkedin-2-5645838-4695696.webp" className='w-[200px]'/>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            LinkedIn Mastery
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            LinkedIn-ի վարպետություն
-                                        </>
-                                    ) : ""
-                                }{
-                                    lang == "Русский" ? (
-                                        <>
-                                            Мастерство LinkedIn
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
-                            <p>
-                                {
-                                    lang == "English" ? (
-                                        <>
-                                            10 lessons
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Հայերեն" ? (
-                                        <>
-                                            10 դաս
-                                        </>
-                                    ) : ""
-                                }
-                                {
-                                    lang == "Русский" ? (
-                                        <>
-                                            10 уроков
-                                        </>
-                                    ) : ""
-                                }
-                            </p>
+                                </p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                <img src="https://api.aitschool.am/ui-ux.png" className='w-[200px]' />
+                                <p>
+                                    UI/UX
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                2 Month
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                2 ամիս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                2 месяцев
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                <img src="https://api.aitschool.am/smm.png" />
+                                <p>
+                                    SMM
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                2 Month
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                2 ամիս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                2 месяцев
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                <img src="https://api.aitschool.am/graphic-design.png" className='w-[200px]' />
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                Graphic Design
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                Գրաֆիկ Դիզայն
+                                            </>
+                                        ) : ""
+                                    }{
+                                        lang == "Русский" ? (
+                                            <>
+                                                Графический дизайн
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                2 Month
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                2 ամիս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                2 месяцев
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                <img src="https://api.aitschool.am/english.png" className='w-[200px]' />
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                English
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                Անգլերեն
+                                            </>
+                                        ) : ""
+                                    }{
+                                        lang == "Русский" ? (
+                                            <>
+                                                Английский
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                4 Month
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                4 ամիս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                4 месяцев
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                            </div>
+
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                <img src="https://api.aitschool.am/3d-illustration-computer-keyboard-and-mouse-object-png.png" className='w-[200px]' />
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                Computer literacy
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                Համակարգչային գրագիտություն
+                                            </>
+                                        ) : ""
+                                    }{
+                                        lang == "Русский" ? (
+                                            <>
+                                                Компьютерная грамотность
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                2 Month
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                2 ամիս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                2 месяцев
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                <img src="https://api.aitschool.am/kids.blog.webp" className='w-[200px]' />
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                AIT Kids
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                AIT Երեխաներ
+                                            </>
+                                        ) : ""
+                                    }{
+                                        lang == "Русский" ? (
+                                            <>
+                                                AIT Дети
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                8 Month
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                8 ամիս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                8 месяцев
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center w-[250px] cursor-pointer'>
+                                <img src="https://api.aitschool.am/free-linkedin-2-5645838-4695696.webp" className='w-[200px]' />
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                LinkedIn Mastery
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                LinkedIn-ի վարպետություն
+                                            </>
+                                        ) : ""
+                                    }{
+                                        lang == "Русский" ? (
+                                            <>
+                                                Мастерство LinkedIn
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                                <p>
+                                    {
+                                        lang == "English" ? (
+                                            <>
+                                                10 lessons
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Հայերեն" ? (
+                                            <>
+                                                10 դաս
+                                            </>
+                                        ) : ""
+                                    }
+                                    {
+                                        lang == "Русский" ? (
+                                            <>
+                                                10 уроков
+                                            </>
+                                        ) : ""
+                                    }
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
